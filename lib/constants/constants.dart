@@ -5,20 +5,21 @@ import 'package:ice_cream_app/models/ice_cream.dart';
 const wBackColor = Color(0xFFF8CCCB);
 const wBackSecondary = Color(0xFFB8B37B);
 const wBackThird = Color(0xFF93A648);
+const ashhLight = Color(0xFFECF6FF);
 
 const backColor = Color(0xFFEEEEEE);
 const bodyColor = Color(0xFFFFFFFF);
 const textColor = Color(0xDD000000);
 const textSecondary = Color(0x61000000);
 const iconColor = Color(0xFF616161);
-const selectedColor = Color(0xFF64B5F6);
+const selectedColor = Color(0xFF7986CB);
 const selectedIcon = Color(0xFFFFFFFF);
 
 const c = Colors.indigo;
 
-const String welcomeText = """Get ready for an epic brain freeze,\n
-  because these are the most amazing\n
-  Ice-creams in the world.""";
+const String welcomeText1 = "Get ready for an epic brain freeze,";
+const String welcomeText2 = "because these are the most amazing";
+const String welcomeText3 = "Ice-creams in the world.";
 
 const bodyGradient = LinearGradient(
   begin: Alignment.topLeft,
@@ -102,7 +103,7 @@ final iceCreams = [
   IceCream(
     title: 'Cherry ice Cream',
     details: 'Fillipino ice cream flavor prepared using cheddar cheese',
-    img: 'assets/images/ice7.png',
+    img: 'assets/images/ice4.png',
     offer: -10,
     price: 2.36,
     duration: 15,

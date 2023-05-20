@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ice_cream_app/constants/constants.dart';
 import 'package:ice_cream_app/constants/constants_get.dart';
 import 'package:ice_cream_app/widgets/home_widgets/h_related_list.dart';
 import 'package:ice_cream_app/widgets/home_widgets/h_appbar.dart';
@@ -16,7 +17,7 @@ class HomeScreen extends StatelessWidget {
     final selectedNav = ValueNotifier<int>(2);
     final selectedCat = ValueNotifier<int>(0);
     return Scaffold(
-      // backgroundColor: Colors.grey[100],
+      backgroundColor: ashhLight,
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 8),

@@ -12,3 +12,9 @@ Container getAppBarIcon(String img) => Container(
       ),
       child: Image.asset(img, fit: BoxFit.cover),
     );
+
+Text getWelcomeText(String text) => Text(
+      text,
+      textAlign: TextAlign.center,
+      style: const TextStyle(fontSize: 10),
+    );
