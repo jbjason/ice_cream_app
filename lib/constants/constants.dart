@@ -16,9 +16,9 @@ const selectedIcon = Color(0xFFFFFFFF);
 
 const c = Colors.indigo;
 
-const String welcomeText = """Get ready for an epic brain freeze\n
-  Text('because these are the most amazing,\n
-  Text('Icre-creams in the world.""";
+const String welcomeText = """Get ready for an epic brain freeze,\n
+  because these are the most amazing\n
+  Ice-creams in the world.""";
 
 const bodyGradient = LinearGradient(
   begin: Alignment.topLeft,

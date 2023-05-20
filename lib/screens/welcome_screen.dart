@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ice_cream_app/constants/constants.dart';
+import 'package:ice_cream_app/screens/home_screen.dart';
 
 class WelcomScreen extends StatelessWidget {
   static const routeName = '/welcome-screen';
@@ -43,9 +44,13 @@ class WelcomScreen extends StatelessWidget {
               ),
               Positioned.fill(
                 top: -50,
-                child: Image.asset(
-                  'assets/images/cover1.png',
-                  fit: BoxFit.contain,
+                child: InkWell(
+                  onTap: () =>
+                      Navigator.pushNamed(context, HomeScreen.routeName),
+                  child: Image.asset(
+                    'assets/images/cover1.png',
+                    fit: BoxFit.contain,
+                  ),
                 ),
               ),
               const Column(
@@ -127,8 +132,8 @@ class WBodyPainter extends CustomPainter {
     );
     final paint2 = Paint()..shader = gradient2.createShader(rect);
     final path3 = Path();
-    path3.moveTo(w * .4, h);
-    path3.cubicTo(w * .35, h * .95, w * .4, h * .91, w * .5, h * .91);
+    path3.moveTo(w * .37, h);
+    path3.cubicTo(w * .33, h * .95, w * .4, h * .91, w * .5, h * .91);
     path3.cubicTo(w * .65, h * .92, w * .55, h * .98, w * .71, h);
 
     path3.close();
