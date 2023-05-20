@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:ice_cream_app/constants/constants.dart';
 
-class HomeSearchBar extends StatelessWidget {
-  const HomeSearchBar({super.key});
+class HSearchBar extends StatelessWidget {
+  const HSearchBar({super.key});
 
   @override
   Widget build(BuildContext context) {
