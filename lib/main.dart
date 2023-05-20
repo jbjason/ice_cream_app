@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ice_cream_app/constants/routes.dart';
-import 'package:ice_cream_app/screens/home_screen.dart';
+import 'package:ice_cream_app/screens/welcome_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.blue),
       onGenerateRoute: Routes.onGenerateRoute,
-      initialRoute: HomeScreen.routeName,
+      initialRoute: WelcomScreen.routeName,
     );
   }
 }

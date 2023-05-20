@@ -16,23 +16,23 @@ class HomeScreen extends StatelessWidget {
     final selectedNav = ValueNotifier<int>(2);
     final selectedCat = ValueNotifier<int>(0);
     return Scaffold(
-      backgroundColor: Colors.grey[100],
+      // backgroundColor: Colors.grey[100],
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.all(15),
+          padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 8),
           child: SingleChildScrollView(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 // appbar
                 const HAppBar(),
-                const SizedBox(height: 25),
+                const SizedBox(height: 20),
                 // top texts
                 const Text('Good Afternoon..!',
                     style: TextStyle(letterSpacing: 1.3, fontSize: 11)),
                 const SizedBox(height: 5),
                 const Text(
-                  'Jack Son Oliver',
+                  'Jb Jason PointO',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     letterSpacing: 1.3,
@@ -68,7 +68,7 @@ class HomeScreen extends StatelessWidget {
   Row getSearchField() => Row(
         children: [
           const Expanded(child: HSearchBar()),
-          const SizedBox(width: 10),
+          const SizedBox(width: 15),
           getAppBarIcon('assets/icons/settings.png'),
         ],
       );

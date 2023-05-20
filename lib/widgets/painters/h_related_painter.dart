@@ -15,7 +15,7 @@ class HomeRelatedPainter extends CustomPainter {
     path.lineTo(w, 0);
     path.close();
 
-    canvas.drawShadow(path, const Color(0xFFD6D6D6), 10, false);
+    canvas.drawShadow(path, const Color(0xFFD6D6D6), 10, true);
     canvas.drawPath(path, paint);
   }
 

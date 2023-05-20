@@ -16,7 +16,7 @@ class HRelatedList extends StatelessWidget {
         itemCount: iceCreams.length,
         itemBuilder: (context, i) => Container(
           width: size.width * .7,
-          margin: const EdgeInsets.only(right: 15),
+          margin: const EdgeInsets.only(right: 20),
           clipBehavior: Clip.hardEdge,
           decoration: BoxDecoration(
             color: iceCreams[iceCreams.length - i - 1].color,

@@ -20,6 +20,7 @@ class HIcePainter extends CustomPainter {
     path.cubicTo(w * .05, h * .1, w * .09, h * .27, 0, h * .22);
     path.close();
 
+    canvas.drawShadow(path, const Color(0xFFD6D6D6), 10, true);
     canvas.drawPath(path, paint);
   }
 

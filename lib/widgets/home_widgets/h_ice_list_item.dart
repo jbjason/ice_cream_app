@@ -61,6 +61,7 @@ class HIceListItem extends StatelessWidget {
                 letterSpacing: 1.2,
               ),
             ),
+            const SizedBox(height: 5),
             // details
             Text(
               iceCream.details,
@@ -107,7 +108,7 @@ class HIceListItem extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(height: 5),
+            const SizedBox(height: 8),
           ],
         ),
       );
