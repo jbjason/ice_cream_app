@@ -25,10 +25,7 @@ class WelcomScreen extends StatelessWidget {
             ),
           ),
           Positioned.fill(
-            child: CustomPaint(
-              painter: WBodyPainter(),
-              child: const WBody(),
-            ),
+            child: CustomPaint(painter: WBodyPainter(), child: const WBody()),
           ),
           // body
         ],

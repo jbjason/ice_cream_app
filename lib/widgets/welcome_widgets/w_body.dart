@@ -25,11 +25,12 @@ class WBody extends StatelessWidget {
         ),
         // cover image
         Positioned.fill(
-          top: -50,
+          top: 100,
+          bottom: 100,
           child: InkWell(
             onTap: () => Navigator.pushNamed(context, HomeScreen.routeName),
             child: Image.asset(
-              'assets/images/cover1.png',
+              'assets/images/cover.png',
               fit: BoxFit.contain,
             ),
           ),

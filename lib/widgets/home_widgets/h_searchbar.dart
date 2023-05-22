@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:ice_cream_app/constants/constants.dart';
 
 class HSearchBar extends StatelessWidget {
@@ -49,7 +48,7 @@ class HSearchBar extends StatelessWidget {
                 bottomRight: Radius.circular(11),
               ),
             ),
-            child: const Icon(CupertinoIcons.search, color: selectedIcon),
+            child: Image.asset('assets/icons/search.png', color: selectedIcon),
           ),
         ],
       ),
